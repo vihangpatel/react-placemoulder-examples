@@ -1,0 +1,638 @@
+/*! CSS Used from: Embedded */
+.card-7 {
+  width: 500px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+
+  *,
+  :after,
+  :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus {
+    outline: 0;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+  }
+  ::-moz-placeholder {
+    opacity: 0.5;
+  }
+  ::-webkit-input-placeholder {
+    opacity: 0.5;
+  }
+  .Bds\(n\) {
+    border-style: none;
+  }
+  .Bdrs\(50\%\) {
+    border-radius: 50%;
+  }
+  .Bg\(\$fgbottomAlign\) {
+    background: linear-gradient(
+      180deg,
+      transparent,
+      transparent 85%,
+      rgba(0, 0, 0, 0.52)
+    );
+  }
+  .Bgc\(\$white\) {
+    background-color: rgba(255, 252, 252, 1);
+  }
+  .Bgc\(\$white3\) {
+    background-color: #f5f2f2;
+  }
+  .Bgc\(\$white4\) {
+    background-color: #eee;
+  }
+  .Bgc\(t\) {
+    background-color: transparent;
+  }
+  .Bgc\(\$white3\)\:h:hover {
+    background-color: #f5f2f2;
+  }
+  .C\(\$blue\) {
+    color: #1976d2;
+  }
+  .C\(\$darkText\) {
+    color: rgba(3, 3, 3, 0.9);
+  }
+  .C\(\$darkTextSecondary\) {
+    color: rgba(3, 3, 3, 0.7);
+  }
+  .C\(\$primary\) {
+    color: #8445ae;
+  }
+  .C\(\$white\) {
+    color: rgba(255, 252, 252, 1);
+  }
+  .Cur\(p\) {
+    cursor: pointer;
+  }
+  .D\(b\) {
+    display: block;
+  }
+  .D\(f\) {
+    display: flex;
+  }
+  .D\(ib\) {
+    display: inline-block;
+  }
+  .D\(if\) {
+    display: inline-flex;
+  }
+  .Fx\(n\) {
+    flex: none;
+  }
+  .Fxg\(1\) {
+    flex-grow: 1;
+  }
+  .Fxs\(0\) {
+    flex-shrink: 0;
+  }
+  .Fxd\(c\) {
+    flex-direction: column;
+  }
+  .Ai\(c\) {
+    align-items: center;
+  }
+  .Ai\(fs\) {
+    align-items: flex-start;
+  }
+  .Jc\(c\) {
+    justify-content: center;
+  }
+  .Jc\(sb\) {
+    justify-content: space-between;
+  }
+  .Fw\(600\) {
+    font-weight: 600;
+  }
+  .Fz\(\$fzbutton\) {
+    font-size: 14px;
+  }
+  .Fz\(\$fzcaption\),
+  .Fz\(\$sm\) {
+    font-size: 12px;
+  }
+  .H\(\$lg\) {
+    height: 24px;
+  }
+  .H\(\$mmd\) {
+    height: 20px;
+  }
+  .H\(\$xl\) {
+    height: 32px;
+  }
+  .H\(\$xxl\) {
+    height: 40px;
+  }
+  .H\(100\%\),
+  .avatar .avatar_H\(100\%\) {
+    height: 100%;
+  }
+  .Lh\(\$lhbutton\),
+  .Lh\(\$lhcaption\) {
+    line-height: 16px;
+  }
+  .Lh\(\$lhmediumCaption\) {
+    line-height: 18px;
+  }
+  .M\(0\) {
+    margin: 0;
+  }
+  .Mx\(\$nmd\) {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+  .Mt\(\$3xs\) {
+    margin-top: 2px;
+  }
+  .Mstart\(\$md\) {
+    margin-left: 16px;
+  }
+  .Mstart\(\$xxs\) {
+    margin-left: 4px;
+  }
+  .Maw\(100\%\) {
+    max-width: 100%;
+  }
+  .Miw\(0\) {
+    min-width: 0;
+  }
+  .O\(0\) {
+    outline: 0;
+  }
+  .T\(0\) {
+    top: 0;
+  }
+  .T\(50\%\) {
+    top: 50%;
+  }
+  .End\(\$nxxs\) {
+    right: -4px;
+  }
+  .End\(0\) {
+    right: 0;
+  }
+  .B\(0\) {
+    bottom: 0;
+  }
+  .Start\(0\) {
+    left: 0;
+  }
+  .Ov\(h\) {
+    overflow: hidden;
+  }
+  .Ovx\(h\) {
+    overflow-x: hidden;
+  }
+  .P\(\$xs\) {
+    padding: 8px;
+  }
+  .P\(\$xxs\) {
+    padding: 4px;
+  }
+  .P\(0\) {
+    padding: 0;
+  }
+  .Px\(\$md\) {
+    padding-left: 16px;
+  }
+  .Px\(\$md\) {
+    padding-right: 16px;
+  }
+  .Pstart\(\$xs\) {
+    padding-left: 8px;
+  }
+  .Px\(\$xxs\),
+  .Pstart\(\$xxs\) {
+    padding-left: 4px;
+  }
+  .Px\(\$xxs\),
+  .Pend\(\$xxs\) {
+    padding-right: 4px;
+  }
+  .Py\(\$xs\) {
+    padding-top: 8px;
+  }
+  .Py\(\$xs\),
+  .Pb\(\$xs\) {
+    padding-bottom: 8px;
+  }
+  .Pend\(\$xl\) {
+    padding-right: 32px;
+  }
+  .Pos\(a\) {
+    position: absolute;
+  }
+  .Pos\(r\) {
+    position: relative;
+  }
+  .Ta\(start\) {
+    text-align: left;
+  }
+  .Tov\(e\) {
+    text-overflow: ellipsis;
+  }
+  .TranslateY\(-50\%\) {
+    transform: translateY(-50%);
+  }
+  .Trs\(\$trsicon\) {
+    transition: transform 0.4s cubic-bezier(0.33, 1.89, 0.65, 0.67);
+  }
+  .Us\(n\) {
+    user-select: none;
+  }
+  .Va\(bl\) {
+    vertical-align: baseline;
+  }
+  .Va\(m\) {
+    vertical-align: middle;
+  }
+  .Whs\(nw\) {
+    white-space: nowrap;
+  }
+  .Whs\(pw\) {
+    white-space: pre-wrap;
+  }
+  .W\(100\%\) {
+    width: 100%;
+  }
+  .W\(\$lg\) {
+    width: 24px;
+  }
+  .W\(\$mmd\) {
+    width: 20px;
+  }
+  .W\(\$xl\) {
+    width: 32px;
+  }
+  .W\(\$xxl\) {
+    width: 40px;
+  }
+  .W\(a\) {
+    width: auto;
+  }
+  .Wow\(bw\) {
+    word-wrap: break-word;
+  }
+  .Fill\(cc\) {
+    fill: currentColor;
+  }
+  /*! CSS Used from: https://sharechat.com/app.9c5d718028109ce4ce82.css */
+  .blink-light {
+    -webkit-animation: blink-light 0.5s infinite;
+    animation: blink-light 0.5s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  .Of\(c\) {
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+  .Bds\(n\) {
+    border-style: none;
+  }
+  .Bdrs\(50\%\) {
+    border-radius: 50%;
+  }
+  .Bg\(\$fgbottomAlign\) {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(transparent),
+      color-stop(85%, transparent),
+      to(rgba(0, 0, 0, 0.52))
+    );
+    background: -webkit-linear-gradient(
+      top,
+      transparent,
+      transparent 85%,
+      rgba(0, 0, 0, 0.52)
+    );
+    background: -o-linear-gradient(
+      top,
+      transparent,
+      transparent 85%,
+      rgba(0, 0, 0, 0.52)
+    );
+    background: linear-gradient(
+      180deg,
+      transparent,
+      transparent 85%,
+      rgba(0, 0, 0, 0.52)
+    );
+  }
+  .Bgc\(\$white\) {
+    background-color: #fffcfc;
+  }
+  .Bgc\(\$white3\) {
+    background-color: #f5f2f2;
+  }
+  .Bgc\(\$white4\) {
+    background-color: #eee;
+  }
+  .Bgc\(t\) {
+    background-color: transparent;
+  }
+  .Bgc\(\$white3\)\:h:hover {
+    background-color: #f5f2f2;
+  }
+  .C\(\$blue\) {
+    color: #1976d2;
+  }
+  .C\(\$darkText\) {
+    color: rgba(3, 3, 3, 0.9);
+  }
+  .C\(\$darkTextSecondary\) {
+    color: rgba(3, 3, 3, 0.7);
+  }
+  .C\(\$primary\) {
+    color: #8445ae;
+  }
+  .C\(\$white\) {
+    color: #fffcfc;
+  }
+  .Cur\(p\) {
+    cursor: pointer;
+  }
+  .D\(b\) {
+    display: block;
+  }
+  .D\(f\) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .D\(ib\) {
+    display: inline-block;
+  }
+  .D\(if\) {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .Fx\(n\) {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+  }
+  .Fxg\(1\) {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+  .Fxs\(0\) {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+  }
+  .Fxd\(c\) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .Ai\(c\) {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .Ai\(fs\) {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .Jc\(c\) {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .Jc\(sb\) {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .Fw\(600\) {
+    font-weight: 600;
+  }
+  .Fz\(\$fzbutton\) {
+    font-size: 14px;
+  }
+  .Fz\(\$fzcaption\),
+  .Fz\(\$sm\) {
+    font-size: 12px;
+  }
+  .avatar .avatar_H\(100\%\),
+  .H\(100\%\) {
+    height: 100%;
+  }
+  .H\(\$lg\) {
+    height: 24px;
+  }
+  .H\(\$mmd\) {
+    height: 20px;
+  }
+  .H\(\$xl\) {
+    height: 32px;
+  }
+  .H\(\$xxl\) {
+    height: 40px;
+  }
+  .Lh\(\$lhbutton\),
+  .Lh\(\$lhcaption\) {
+    line-height: 16px;
+  }
+  .Lh\(\$lhmediumCaption\) {
+    line-height: 18px;
+  }
+  .M\(0\) {
+    margin: 0;
+  }
+  .Mx\(\$nmd\) {
+    margin-left: -16px;
+  }
+  .Mx\(\$nmd\) {
+    margin-right: -16px;
+  }
+  .Mt\(\$3xs\) {
+    margin-top: 2px;
+  }
+  .Mstart\(\$md\) {
+    margin-left: 16px;
+  }
+  .Mstart\(\$xxs\) {
+    margin-left: 4px;
+  }
+  .Maw\(100\%\) {
+    max-width: 100%;
+  }
+  .Miw\(0\) {
+    min-width: 0;
+  }
+  .O\(0\) {
+    outline: 0;
+  }
+  .T\(0\) {
+    top: 0;
+  }
+  .T\(50\%\) {
+    top: 50%;
+  }
+  .End\(\$nxxs\) {
+    right: -4px;
+  }
+  .End\(0\) {
+    right: 0;
+  }
+  .B\(0\) {
+    bottom: 0;
+  }
+  .Start\(0\) {
+    left: 0;
+  }
+  .Ov\(h\) {
+    overflow: hidden;
+  }
+  .Ovx\(h\) {
+    overflow-x: hidden;
+  }
+  .P\(\$xs\) {
+    padding: 8px;
+  }
+  .P\(\$xxs\) {
+    padding: 4px;
+  }
+  .P\(0\) {
+    padding: 0;
+  }
+  .Px\(\$md\) {
+    padding-left: 16px;
+  }
+  .Px\(\$md\) {
+    padding-right: 16px;
+  }
+  .Pstart\(\$xs\) {
+    padding-left: 8px;
+  }
+  .Pstart\(\$xxs\),
+  .Px\(\$xxs\) {
+    padding-left: 4px;
+  }
+  .Pend\(\$xxs\),
+  .Px\(\$xxs\) {
+    padding-right: 4px;
+  }
+  .Py\(\$xs\) {
+    padding-top: 8px;
+  }
+  .Pb\(\$xs\),
+  .Py\(\$xs\) {
+    padding-bottom: 8px;
+  }
+  .Pend\(\$xl\) {
+    padding-right: 32px;
+  }
+  .Pos\(a\) {
+    position: absolute;
+  }
+  .Pos\(r\) {
+    position: relative;
+  }
+  .Ta\(start\) {
+    text-align: left;
+  }
+  .Tov\(e\) {
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+  .TranslateY\(-50\%\) {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .Trs\(\$trsicon\) {
+    -webkit-transition: -webkit-transform 0.4s
+      cubic-bezier(0.33, 1.89, 0.65, 0.67);
+    transition: -webkit-transform 0.4s cubic-bezier(0.33, 1.89, 0.65, 0.67);
+    -o-transition: transform 0.4s cubic-bezier(0.33, 1.89, 0.65, 0.67);
+    transition: transform 0.4s cubic-bezier(0.33, 1.89, 0.65, 0.67);
+    transition: transform 0.4s cubic-bezier(0.33, 1.89, 0.65, 0.67),
+      -webkit-transform 0.4s cubic-bezier(0.33, 1.89, 0.65, 0.67);
+  }
+  .Us\(n\) {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .Va\(bl\) {
+    vertical-align: baseline;
+  }
+  .Va\(m\) {
+    vertical-align: middle;
+  }
+  .Whs\(nw\) {
+    white-space: nowrap;
+  }
+  .Whs\(pw\) {
+    white-space: pre-wrap;
+  }
+  .W\(100\%\) {
+    width: 100%;
+  }
+  .W\(\$lg\) {
+    width: 24px;
+  }
+  .W\(\$mmd\) {
+    width: 20px;
+  }
+  .W\(\$xl\) {
+    width: 32px;
+  }
+  .W\(\$xxl\) {
+    width: 40px;
+  }
+  .W\(a\) {
+    width: auto;
+  }
+  .Wow\(bw\) {
+    word-wrap: break-word;
+  }
+  .Fill\(cc\) {
+    fill: currentColor;
+  }
+  
+  /*! CSS Used keyframes */
+  @-webkit-keyframes blink-light {
+    0% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    to {
+      -webkit-transform: scale(1.15);
+      transform: scale(1.15);
+    }
+  }
+  @keyframes blink-light {
+    0% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    to {
+      -webkit-transform: scale(1.15);
+      transform: scale(1.15);
+    }
+  }
+  
+}

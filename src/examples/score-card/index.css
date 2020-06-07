@@ -1,0 +1,58 @@
+.score-card .title {
+  font-size: 20px;
+  color: #666;
+}
+
+.score-card .sub-title,
+.score-card .status,
+.score-card .score {
+  font-size: 14px;
+  color: #666;
+}
+
+.score-card .link-text {
+  font-size: 12px;
+  color: blue;
+}
+
+.score-card {
+  padding: 16px;
+  width: 420px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  margin: 5px;
+}
+
+.score-card .left-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.score-card .part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.score-card .lower-part {
+  margin-top: 40px;
+}
+
+.score-card .right-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  background: grey;
+  margin: 10px;
+}

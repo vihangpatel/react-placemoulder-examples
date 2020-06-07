@@ -1,0 +1,61 @@
+.card-1 .card {
+  display: inline-block;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
+  position: relative;
+  margin: 10px 20px;
+  transition: all 0.2s ease-in-out;
+  width: 300px;
+}
+
+.card-1 .card:hover {
+  /*box-shadow: 0 5px 22px 0 rgba(0,0,0,.25);*/
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 54px;
+}
+
+.card-1 .image {
+  height: 200px;
+  opacity: 0.7;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-1 .image:hover,
+.card-1 .card:hover .image {
+  height: 200px;
+  opacity: 1;
+}
+
+.card-1 .text {
+  background: #fff;
+  padding: 20px;
+}
+
+.card-1 .text p {
+  margin-bottom: 0px;
+}
+
+.card-1 .fab {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -50px;
+  right: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: #0066a2;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-1 .fab:hover {
+  background: #549d3c;
+  cursor: pointer;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
