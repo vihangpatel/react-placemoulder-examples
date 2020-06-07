@@ -2,7 +2,7 @@ import React from "react";
 
 import { data, schema } from "./dummy-data";
 
-import "./index.css";
+import "./index.scss";
 
 export default props => (
   <div className="card-1">

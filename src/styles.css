@@ -1,9 +1,9 @@
 .App {
   font-family: sans-serif;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.App .app-title {
+  margin: 10px;
 }
 
 body {
@@ -13,7 +13,7 @@ body {
 
 .App section {
   min-height: 300px;
-  margin: -30px 15px;
+  margin: 20px 15px;
   padding: 20px;
   width: 500px;
   min-width: fit-content;
@@ -23,7 +23,6 @@ body {
   box-shadow: 0 0.7px 0.9px rgba(0, 0, 0, 0.024),
     0 1.9px 2.4px rgba(0, 0, 0, 0.035), 0 4.5px 5.7px rgba(0, 0, 0, 0.046),
     0 15px 19px rgba(0, 0, 0, 0.07);
-  transform: scale(0.8);
 }
 
 h1,
@@ -46,4 +45,22 @@ button {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .App section > div:not(.enable-stensil),
+  .App .grid section h1 {
+    transform: scale(0.8);
+  }
+
+  .App section .enable-stensil > * {
+    transform: scale(0.8);
+  }
+}
+
+#root {
+  position: absolute;
+  width: 100vw;
+  overflow-x: hidden;
 }
