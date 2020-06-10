@@ -49,14 +49,22 @@ button {
 }
 
 @media only screen and (max-width: 600px) {
-  .App section > div:not(.enable-stensil),
   .App .grid section h1 {
-    transform: scale(0.8);
+    text-align:center;
+  }
+
+  .App section > div:not(.enable-stensil) {
+    transform: scale(0.68);
   }
 
   .App section .enable-stensil > * {
-    transform: scale(0.8);
+    transform: scale(0.68);
   }
+}
+
+.vertical-list {
+  display: flex;
+  flex-direction: column;
 }
 
 #root {

@@ -53,10 +53,11 @@ function App() {
               repeat ? (
                 <StencilList
                   length={repeat}
+                  Component={Component}
                   data={data}
                   schema={schema}
-                  Component={Component}
-                />
+                  className="vertical-list"
+                ></StencilList>
               ) : (
                 <Stencil>
                   <Component {...data} {...createObjectFromSchema(schema)} />
