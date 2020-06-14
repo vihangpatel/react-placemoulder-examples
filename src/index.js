@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import {
-  StencilList,
   Stencil,
+  StencilList,
+  StencilWrapper,
   createObjectFromSchema,
 } from 'react-placemoulder';
 
@@ -27,7 +28,13 @@ const exampleMap = [
     schema: scoreCardSchema,
     data: scoreCardData,
   },
-  { title: 'WhatsAppCard', Component: WhatsAppCard, data: wData, repeat: 3 },
+  {
+    title: 'WhatsAppCard',
+    Component: WhatsAppCard,
+    data: wData,
+    repeat: 3,
+    useWrapper: true,
+  },
   { title: 'Sharechat Card', Component: ShareChatCard, data: sharechatData },
   { title: 'Facebook Story Card', Component: FbCard, data: fbData },
   { title: 'Sample Card', Component: SampleCard, data: sampleData, repeat: 2 },
@@ -36,6 +43,7 @@ const exampleMap = [
 function App() {
   const [loading, setLoading] = useState(true);
 
+debugger
   return (
     <div className="App">
       <h3 className="app-title">
@@ -46,28 +54,44 @@ function App() {
         {loading ? 'Turn off Loading' : 'Turn on Loading'}
       </button>
       <div className="grid">
-        {exampleMap.map(({ title, Component, repeat, schema, data }) => (
-          <section key={title}>
-            <h1>{title} </h1>
-            {loading ? (
-              repeat ? (
-                <StencilList
-                  length={repeat}
-                  Component={Component}
-                  data={data}
-                  schema={schema}
-                  className="vertical-list"
-                ></StencilList>
+        {exampleMap.map(
+          ({ title, Component, repeat, schema, data, useWrapper }) => (
+            <section key={title}>
+              <h1>{title} </h1>
+              {loading ? (
+                repeat ? (
+                  useWrapper ? (
+                    <StencilWrapper repeat={repeat}>
+                      <Component
+                        {...data}
+                        {...createObjectFromSchema(schema)}
+                      />
+                    </StencilWrapper>
+                  ) : (
+                    <StencilList
+                      length={repeat}
+                      Component={Component}
+                      data={data}
+                      schema={schema}
+                      className="vertical-list"
+                    >
+                      <Component
+                        {...data}
+                        {...createObjectFromSchema(schema)}
+                      />{' '}
+                    </StencilList>
+                  )
+                ) : (
+                  <Stencil>
+                    <Component {...data} {...createObjectFromSchema(schema)} />
+                  </Stencil>
+                )
               ) : (
-                <Stencil>
-                  <Component {...data} {...createObjectFromSchema(schema)} />
-                </Stencil>
-              )
-            ) : (
-              <Component {...createObjectFromSchema(schema)} {...data} />
-            )}
-          </section>
-        ))}
+                <Component  {...data} {...createObjectFromSchema(schema)} />
+              )}
+            </section>
+          )
+        )}
       </div>
     </div>
   );

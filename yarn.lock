@@ -1081,7 +1081,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
   version "7.10.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.2.tgz#d103f21f2602497d38348a32e008637d506db839"
   integrity sha512-6sF3uQw2ivImfVIl62RZ7MXhO2tap69WeWK57vAaimT6AZbE4FbqjdEJIN1UqoD6wI6B+1n9UiagafH1sxjOtg==
@@ -8357,12 +8357,10 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-placemoulder@1.0.26:
-  version "1.0.26"
-  resolved "https://registry.yarnpkg.com/react-placemoulder/-/react-placemoulder-1.0.26.tgz#b544e6f4147806810cca4c9988ea58eb0623bcd2"
-  integrity sha512-wUF7dh9qUDWsmzlOqDyoBxjqop7IhRyffhiiTG3O+W9jbw9LLqV+eXIOGpC3A0gKNT+LrQK0oFEggV2VITqjZw==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
+react-placemoulder@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-placemoulder/-/react-placemoulder-1.1.0.tgz#92d4ac4124e3d7d9a6d5c5c25563eab80307550d"
+  integrity sha512-rCSP/0YSU1PgeyYyyVW12KRzHN+EWmSgVqZPcb+kIsChM4IPa+vt78gjuZBQ30n0SwrXnOSwJs5N/7KKgYvUGg==
 
 react-scripts@3.0.1:
   version "3.0.1"
